@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">FlexboxLayoutDemo</string>
+  <string name="layout_attr_direction">flexDirection</string>
+  <string name="layout_attr_warp">flexWarp</string>
+  <string name="layout_attr_justify_content">justfyContent</string>
+  <string name="layout_attr_align_content">alignItems</string>
+  <string name="layout_attr_align_items">alignContent</string>
+</resources>
