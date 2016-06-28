@@ -1,8 +1,86 @@
 <resources>
   <string name="app_name">FlexboxLayoutDemo</string>
+  <!-- layout attribute -->
   <string name="layout_attr_direction">flexDirection</string>
   <string name="layout_attr_warp">flexWarp</string>
   <string name="layout_attr_justify_content">justfyContent</string>
   <string name="layout_attr_align_content">alignItems</string>
   <string name="layout_attr_align_items">alignContent</string>
+
+  <!-- item attribute -->
+  <string name="item_attr_layout_order">layout_order</string>
+  <string name="item_attr_flex_grow">layout_flexGrow</string>
+  <string name="item_attr_flex_shrink">layout_flexShrink</string>
+  <string name="item_attr_align_self">layout_alignSelf</string>
+  <string name="item_attr_flex_basis_percent">layout_flexBasisPercent</string>
+  <string name="item_attr_minwidth">layout_minWidth</string>
+  <string name="item_attr_minheiht">layout_minHeight</string>
+  <string name="item_attr_maxwidth">layout_maxWidth</string>
+  <string name="item_attr_maxheiht">layout_maxHeight</string>
+  <string name="item_attr_warp_before">layout_wrapBefore</string>
+
+  <string name="row" translatable="false">Row</string>
+  <string name="row_reverse" translatable="false">Row Reverse</string>
+  <string name="column" translatable="false">Column</string>
+  <string name="column_reverse" translatable="false">Column Reverse</string>
+  <string name="nowrap" translatable="false">Nowrap</string>
+  <string name="wrap" translatable="false">Wrap</string>
+  <string name="wrap_reverse" translatable="false">Wrap Reverse</string>
+  <string name="flex_start" translatable="false">Flex Start</string>
+  <string name="flex_end" translatable="false">Flex End</string>
+  <string name="center" translatable="false">Center</string>
+  <string name="space_between" translatable="false">Space Between</string>
+  <string name="space_around" translatable="false">Space Around</string>
+  <string name="baseline" translatable="false">Baseline</string>
+  <string name="stretch" translatable="false">Stretch</string>
+  <string name="auto" translatable="false">Auto</string>
+  <string name="layout_attr_title">Flexlayout Attribute</string>
+
+  <string-array translatable="false" name="array_flex_direction">
+    <item>@string/row</item>
+    <item>@string/row_reverse</item>
+    <item>@string/column</item>
+    <item>@string/column_reverse</item>
+  </string-array>
+
+  <string-array translatable="false" name="array_flex_wrap">
+    <item>@string/nowrap</item>
+    <item>@string/wrap</item>
+    <item>@string/wrap_reverse</item>
+  </string-array>
+
+  <string-array translatable="false" name="array_justify_content">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/space_between</item>
+    <item>@string/space_around</item>
+  </string-array>
+
+  <string-array translatable="false" name="array_align_items">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/baseline</item>
+    <item>@string/stretch</item>
+  </string-array>
+
+  <string-array translatable="false" name="array_align_content">
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/space_between</item>
+    <item>@string/space_around</item>
+    <item>@string/stretch</item>
+  </string-array>
+
+  <string-array translatable="false" name="array_align_self">
+    <item>@string/auto</item>
+    <item>@string/flex_start</item>
+    <item>@string/flex_end</item>
+    <item>@string/center</item>
+    <item>@string/baseline</item>
+    <item>@string/stretch</item>
+  </string-array>
+
 </resources>
