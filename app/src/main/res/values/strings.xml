@@ -43,6 +43,7 @@
     <item>@string/column_reverse</item>
   </string-array>
 
+
   <string-array translatable="false" name="array_flex_wrap">
     <item>@string/nowrap</item>
     <item>@string/wrap</item>

@@ -34,26 +34,31 @@ public class FlexAttrBottomDialog {
     contentselector.setOnItemSelectedListener(new DefaultSelector() {
       @Override public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         layout.setAlignContent(i);
+        layout.invalidate();
       }
     });
     alignselector.setOnItemSelectedListener(new DefaultSelector() {
       @Override public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         layout.setAlignItems(i);
+        layout.invalidate();
       }
     });
     justifyselector.setOnItemSelectedListener(new DefaultSelector() {
       @Override public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         layout.setJustifyContent(i);
+        layout.invalidate();
       }
     });
     flexwarpselector.setOnItemSelectedListener(new DefaultSelector() {
       @Override public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         layout.setFlexWrap(i);
+        layout.invalidate();
       }
     });
     directionselector.setOnItemSelectedListener(new DefaultSelector() {
       @Override public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         layout.setFlexDirection(i);
+        layout.invalidate();
       }
     });
 
@@ -82,6 +87,7 @@ public class FlexAttrBottomDialog {
     directionselector.setAdapter(
         ArrayAdapter.createFromResource(context, R.array.array_flex_direction,
             android.R.layout.simple_list_item_1));
+
 
     contentselector.setSelection(layout.getAlignContent());
     alignselector.setSelection(layout.getAlignItems());
